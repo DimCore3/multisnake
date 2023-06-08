@@ -1,0 +1,30 @@
+@mixin sizeSquire($size) {
+    width: $size;
+    height: $size;
+}
+
+.field {
+    display: flex;
+    background-color: red;
+
+    .yRow {
+
+        .squire {
+            background-color: green;
+            border: 1px solid black;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .field {
+        @include sizeSquire(90vw);
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .field {
+        @include sizeSquire(90vh);
+    }
+}
