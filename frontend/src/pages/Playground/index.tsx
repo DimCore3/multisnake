@@ -5,7 +5,7 @@ const Playground = () => {
 
     return (
         <div className={classes.playground}>
-            <Field />
+            <Field YXSize={40}/>
         </div>
     );
 }
