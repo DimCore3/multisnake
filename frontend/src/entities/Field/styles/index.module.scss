@@ -6,12 +6,12 @@
 .field {
     display: flex;
     background-color: red;
+    box-shadow: 0 0 20px 5px var(--prime-gold);
 
     .yRow {
-
         .squire {
-            background-color: green;
-            border: 1px solid black;
+            border: 1px #dbe9b4 solid;
+            background-color: rgb(64, 187, 64);
             width: 100%;
         }
     }
